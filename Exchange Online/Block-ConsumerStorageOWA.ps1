@@ -1,4 +1,3 @@
-﻿## Script by Alex Fields, ITProMentor.com
 ## Description:
 ## This script will block the ability for users to connect to Consumer cloud storage locations via OWA
 ## Prerequisites:
