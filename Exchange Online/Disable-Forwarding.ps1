@@ -1,4 +1,3 @@
-﻿## Script by Alex Fields, ITProMentor.com
 ## Description:
 ## This script disables auto-forwarding
 ## Prerequisites:
