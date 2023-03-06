@@ -1,4 +1,3 @@
-﻿## Script by Alex Fields, ITProMentor.com
 ## Description:
 ## This script can be used to help configure DKIM for Office 365
 ## Use: .\Setup-DKIM.ps1 -DomainName "yourdomainhere.com"
