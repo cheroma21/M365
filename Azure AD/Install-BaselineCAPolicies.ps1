@@ -23,7 +23,6 @@
 
 .DETAILS
     FileName:    Install-BaselineCAPolicies.ps1
-    Author:      Alex Fields, ITProMentor.com
     Created:     September 2020
 	Updated:     January 2022
 
