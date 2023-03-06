@@ -18,7 +18,6 @@
 
 .DETAILS
     FileName:    Install-SensitivityLabels.ps1
-    Author:      Alex Fields, ITProMentor.com
     Created:     May 2021
 	Updated:     May 2021
 
