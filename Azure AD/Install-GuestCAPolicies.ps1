@@ -18,7 +18,6 @@
 
 .DETAILS
     FileName:    Install-GuestCAPolicies.ps1
-    Author:      Alex Fields, ITProMentor.com
     Created:     June 2021
 	Updated:     January 2022
 
