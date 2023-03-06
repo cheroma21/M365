@@ -1,4 +1,3 @@
-﻿## Script by Alex Fields, ITProMentor.com
 ## Description:
 ## This script will block attachment downloads on unmanaged devices
 ## Prerequisites:
