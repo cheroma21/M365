@@ -13,7 +13,6 @@ Source of script: https://docs.microsoft.com/en-us/azure/active-directory/authen
 
 .NOTES
     FileName:    Enable-MfaForLicensedUsers.ps1
-    Author:      Alex Fields, ITProMentor.com
     Created:     02-01-2020
 	Revised:     02-01-2020
     Version:     1.0
@@ -36,4 +35,5 @@ Get-Msoluser -all | Where-Object {$_.IsLicensed -eq $true} | Set-MsolUser
 ## Get-Msoluser -all | Where-Object {$_.IsLicensed -eq $true} |  Set-MsolUser -StrongAuthenticationRequirements @()
 
 ## Find out who is registered for MFA:
-## Get-Msoluser -all | Where-Object {$_.StrongAuthenticationMethods -like "*"} 
+## Get-Msoluser -all | Where-Object {$_.StrongAuthenticationMethods -like "*"} 
+
