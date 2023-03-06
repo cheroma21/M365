@@ -13,7 +13,6 @@ Source of script: https://docs.microsoft.com/en-us/azure/active-directory/authen
 
 .NOTES
     FileName:    Disable-MfaForLicensedUsers.ps1
-    Author:      Alex Fields, ITProMentor.com
     Created:     02-01-2020
 	Revised:     02-01-2020
     Version:     1.0
@@ -29,7 +28,10 @@ Source of script: https://docs.microsoft.com/en-us/azure/active-directory/authen
 ## Get-Msoluser -all | Where-Object {$_.IsLicensed -eq $true} |  Set-MsolUser -StrongAuthenticationRequirements @()
 
 ## Find out who is registered for MFA:
-## Get-Msoluser -all | Where-Object {$_.StrongAuthenticationMethods -like "*"} # Sets the MFA requirement state
+## Get-Msoluser -all | Where-Object {$_.StrongAuthenticationMethods -like "*"} 
+
+
+# Sets the MFA requirement state
 function Set-MfaState {
 
     [CmdletBinding()]
@@ -59,4 +61,14 @@ function Set-MfaState {
 }
 
 # Disable MFA for all users
-Get-MsolUser -All | Set-MfaState -State Disabled# After this has been run, create a Conditional Access policy to replace per-user MFA:# Azure AD > Security > Conditional Access > New policy# Name it GRANT - MFA for users# Select Users and groups > All users (and Exclude any emergency access accounts, other exceptions)# Select Cloud apps and actions > All cloud apps# Do NOT select any Conditions (e.g. unless you want to exclude trusted locations)# Select Access Controls > Grant > Require Multi-factor authentication# Save and enable the policy
+Get-MsolUser -All | Set-MfaState -State Disabled
+
+
+# After this has been run, create a Conditional Access policy to replace per-user MFA:
+# Azure AD > Security > Conditional Access > New policy
+# Name it GRANT - MFA for users
+# Select Users and groups > All users (and Exclude any emergency access accounts, other exceptions)
+# Select Cloud apps and actions > All cloud apps
+# Do NOT select any Conditions (e.g. unless you want to exclude trusted locations)
+# Select Access Controls > Grant > Require Multi-factor authentication
+# Save and enable the policy
