@@ -10,7 +10,6 @@
 
 .NOTES
     FileName:    Export-ActivitybyIPAddress.ps1
-    Author:      Alex Fields 
     Created:     June 2021
 	Revised:     June 2021
     
