@@ -10,7 +10,6 @@
 
 .DETAILS
     FileName:    Install-DataRetentionPolicies.ps1
-    Author:      Alex Fields, ITProMentor.com
     Created:     September 2021
 	Updated:     September 2021
 
