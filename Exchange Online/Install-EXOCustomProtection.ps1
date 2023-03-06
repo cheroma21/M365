@@ -17,7 +17,6 @@ https://docs.microsoft.com/en-us/powershell/exchange/exchange-online/connect-to-
 
 .NOTES
     FileName:    Install-EXOCustomProtection.ps1
-    Author:      Alex Fields, ITProMentor.com
     Created:     February 2023
 	Revised:     February 2023
     Version:     1.0
