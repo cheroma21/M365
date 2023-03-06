@@ -8,7 +8,6 @@ https://docs.microsoft.com/en-us/powershell/exchange/exchange-online/connect-to-
 
 .NOTES
     FileName:    Advanced-TenantConfig.ps1
-    Author:      Alex Fields, ITProMentor.com
     Created:     March 2020
 	Revised:     October 2020
     Version:     2.0
