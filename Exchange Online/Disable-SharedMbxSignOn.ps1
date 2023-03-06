@@ -1,4 +1,3 @@
-﻿## Script by Alex Fields, ITProMentor.com
 ## Use this script to block sign-in for shared mailboxes
 ## You must connect to Exchange Online and Azure AD using Connect-EXOPSSession and Connect-MsolService before running this script
 ## https://docs.microsoft.com/en-us/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/mfa-connect-to-exchange-online-powershell?view=exchange-ps
