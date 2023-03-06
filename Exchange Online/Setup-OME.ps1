@@ -8,7 +8,6 @@ https://docs.microsoft.com/en-us/powershell/exchange/exchange-online/connect-to-
 
 .NOTES
     FileName:    Setup-OME.ps1
-    Author:      Alex Fields, ITProMentor.com
     Created:     April 2021
 	Revised:     April 2021
 
