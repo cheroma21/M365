@@ -1,4 +1,3 @@
-﻿## Script by Alex Fields, ITProMentor.com
 ## Description:
 ## This script can be used to enable the archive mailbox, and/or litigation hold
 ## Prerequisites:
