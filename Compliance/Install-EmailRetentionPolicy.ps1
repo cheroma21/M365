@@ -10,7 +10,6 @@
 
 .DETAILS
     FileName:    Install-EmailRetentionPolicy.ps1
-    Author:      Alex Fields, ITProMentor.com
     Created:     September 2021
 	Updated:     February 2022
 
