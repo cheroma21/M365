@@ -1,4 +1,3 @@
-﻿## Script by Alex Fields, ITProMentor.com
 ## Description:
 ## This script will max out the retention period for deleted items in all Exchange Online mailboxes (the maximum configurable value is 30 days)
 ## Prerequisites:
