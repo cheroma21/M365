@@ -9,7 +9,6 @@
 
 .DETAILS
     FileName:    Enable-SensitivityLabelsForGroups.ps1
-    Author:      Alex Fields, ITProMentor.com
     Created:     November 2020
 	Updated:     April 2021
 
