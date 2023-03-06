@@ -13,7 +13,6 @@ https://docs.microsoft.com/en-us/azure/active-directory/enterprise-users/groups-
 
 .NOTES
     FileName:    Set-GroupExpirationPolicy.ps1
-    Author:      Alex Fields, ITProMentor.com
     Created:     April 2021
     Revised:     April 2021
     
