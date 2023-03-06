@@ -13,7 +13,6 @@ https://docs.microsoft.com/en-us/powershell/exchange/exchange-online/connect-to-
 
 .NOTES
     FileName:    Install-EXOStandardProtection.ps1
-    Author:      Alex Fields, ITProMentor.com
     Created:     March 2020
 	Revised:     January 2023
     Version:     4.0
