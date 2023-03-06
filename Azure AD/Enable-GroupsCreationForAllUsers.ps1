@@ -13,7 +13,6 @@ https://docs.microsoft.com/en-us/microsoft-365/admin/create-groups/manage-creati
 
 .NOTES
     FileName:    Enable-GroupsCreationForAllUsers.ps1
-    Author:      Alex Fields, ITProMentor.com
     Created:     February 2020
     Revised:     April 2021
     
